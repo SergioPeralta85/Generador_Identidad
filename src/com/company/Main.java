@@ -15,7 +15,7 @@ public class Main {
         int Aleatorio_Nombre1= (int)Aleatorio_Nombre;
         double Aleatorio_1Apellido= (Math.random()*10);
         int Aleatorio_1Apellido1= (int)Aleatorio_1Apellido;
-        double Aleatorio_2Apellido= (Math.random()*1);
+        double Aleatorio_2Apellido= (Math.random()*10);
         int Aleatorio_2Apellido2= (int)Aleatorio_2Apellido;
 
         //Aleatorios para crear NIF
