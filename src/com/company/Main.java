@@ -9,20 +9,20 @@ public class Main {
 
         //Aleatorios para crear nombre y apellidos
 
-        String Nombres[]={"Elena","Pepe","Juan","Emilio","Francisco","Raul","Ignacio","Tomas","Maribel","Sergio"};
-        String Apellidos[]={"Gomez","Gutierrez","Moreira","Ramirez","Morales","Mejias","Salazar","Tomas","Peña","Gonzalez"};
-        double Aleatorio_Nombre= (Math.random()*10);
+        String Nombres[]={"","Elena","Pepe","Juan","Emilio","Francisco","Raul","Ignacio","Tomas","Maribel","Sergio"};
+        String Apellidos[]={"","Gomez","Gutierrez","Moreira","Ramirez","Morales","Mejias","Salazar","Tomas","Peña","Gonzalez"};
+        double Aleatorio_Nombre= (Math.random()*10+1);
         int Aleatorio_Nombre1= (int)Aleatorio_Nombre;
-        double Aleatorio_1Apellido= (Math.random()*10);
+        double Aleatorio_1Apellido= (Math.random()*10+1);
         int Aleatorio_1Apellido1= (int)Aleatorio_1Apellido;
-        double Aleatorio_2Apellido= (Math.random()*10);
+        double Aleatorio_2Apellido= (Math.random()*10+1);
         int Aleatorio_2Apellido2= (int)Aleatorio_2Apellido;
 
         //Aleatorios para crear NIF
         String LetraNif[]={"Q","W","E","R","T","Y","U","I","O","P",
                 "A","S","D","F","G","H","J","K","L","Z",
                 "X","C","V","B","N","M","A","G","H","D"};
-        double Aleatorio_NIF= (Math.random()*1000000000);
+        double Aleatorio_NIF= (Math.random()*100000000);
         int Aleatorio_NIF2= (int)Aleatorio_NIF;
         double Aleatorio_Letra= (Math.random()*30);
         int Aleatorio_Letra1= (int)Aleatorio_Letra;
